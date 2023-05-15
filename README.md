@@ -1,14 +1,19 @@
-##Ex.No:1 To create a HelloWorld Activity using all lifecycles methods to display messages.
-##AIM:
+# Ex.No:1 To create a HelloWorld Activity using all lifecycles methods to display messages.
+
+
+## AIM:
+
 To create a HelloWorld Activity using all lifecycles methods to display messages using Android Studio.
 
-##EQUIPMENTS REQUIRED:
+## EQUIPMENTS REQUIRED:
+
 Latest Version Android Studio
 
-##ALGORITHM:
+## ALGORITHM:
+
 Step 1: Open Android Stdio and then click on File -> New -> New project.
 
-Step 2: Then type the Application name as HelloWorld and click Next.
+Step 2: Then type the Application name as HelloWorld and click Next. 
 
 Step 3: Then select the Minimum SDK as shown below and click Next.
 
@@ -20,16 +25,16 @@ Step 6: Display message give in MainActivity file.
 
 Step 7: Save and run the application.
 
-##PROGRAM:
+## PROGRAM:
 ```
 /*
 Program to print the text “Hello World”.
-Developed by: Maheswari K
-Registeration Number :212221040096
+Developed by:HARINI G
+Registeration Number :212221220017
 */
 ```
 ```
-##MainActivity.java:-
+MainActivity.java:-
 package com.example.helloworld;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -91,7 +96,8 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-##Activity_main.xml:-
+Activity_main.xml:-
+
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -115,9 +121,10 @@ public class MainActivity extends AppCompatActivity {
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
-##OUTPUT:
-![V](helloworld.png)
 
-##RESULT:
+## OUTPUT
+![v](helloworld.png)
+
+
+## RESULT
 Thus a Simple Android Application create a HelloWorld Activity using all lifecycles methods to display messages using Android Studio is developed and executed successfully.
-
